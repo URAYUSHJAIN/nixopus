@@ -1,45 +1,60 @@
-# Pull Request
+#### Issue
+_Link to related issue(s):_  
 
-## Purpose / Linked Issue
-<!-- Link to related issue or describe the purpose of this PR -->
+---
 
-Fixes #(issue number)
-<!-- OR describe the purpose if no issue exists -->
+#### Description
+_Short summary of what this PR changes or introduces._
 
-## Summary of Changes
-<!-- Provide a clear summary of what was changed -->
+---
 
-- 
-- 
-- 
+#### Scope of Change
+_Select all applicable areas impacted by this PR:_
 
-## Type of Change
-<!-- Check the type of change this PR represents -->
+- [ ] View (UI/UX)
+- [ ] API
+- [ ] CLI
+- [ ] Infra / Deployment
+- [ ] Docs
+- [ ] Other (specify): ________
 
-- [ ] 🐛 Bug fix (non-breaking change which fixes an issue)
-- [ ] ✨ Feature (new functionality)
-- [ ] 💥 Breaking change (existing functionality will be affected)
-- [ ] 📚 Documentation only
+---
 
-## Testing Steps
-<!-- Describe how reviewers can test these changes -->
+#### Screenshot / Video / GIF (if applicable)
+_Attach or embed screenshots, screen recordings, or GIFs demonstrating the feature or fix._
 
-1. 
-2. 
-3. 
+---
 
-## Checklist
-<!-- Ensure all items are completed before requesting review -->
+#### Related PRs (if any)
+_Link any related or dependent PRs across repos._
 
-- [ ] Code builds successfully
-- [ ] All tests pass
-- [ ] Documentation has been updated (if applicable)
-- [ ] Self-review completed
+---
 
-## Optional Notes
-<!-- Screenshots, additional context, or anything else reviewers should know -->
+#### Additional Notes for Reviewers (optional)
+_Anything reviewers should know before testing or merging (e.g., environment variables, setup steps)._
 
-### Screenshots (if applicable)
+---
 
+#### Developer Checklist
+_To be completed by the developer who raised the PR._
 
-### Additional Context
+- [ ] Self-review done  
+- [ ] Manual dev testing done  
+- [ ] No secrets exposed  
+- [ ] No merge conflicts  
+- [ ] Docs added/updated (if applicable)  
+- [ ] Removed debug prints / secrets / sensitive data  
+- [ ] Unit / Integration tests passing  
+- [ ] Follows all standards defined in **Nixopus Docs**
+
+---
+
+#### Reviewer Checklist
+_To be completed by the reviewer before merge._
+
+- [ ] Peer review done  
+- [ ] No console.logs / fmt.prints left  
+- [ ] No secrets exposed  
+- [ ] If any DB migrations, migration changes are verified
+- [ ] Verified release changes are production-ready
+
