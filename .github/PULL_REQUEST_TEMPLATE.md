@@ -38,6 +38,7 @@ _Anything reviewers should know before testing or merging (e.g., environment var
 #### Developer Checklist
 _To be completed by the developer who raised the PR._
 
+- [ ] Add valid/relevant title for the PR
 - [ ] Self-review done  
 - [ ] Manual dev testing done  
 - [ ] No secrets exposed  
